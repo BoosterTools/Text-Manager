@@ -1,0 +1,10 @@
+# Runtime dependencies for Personal Text Manager
+#
+# PySide6 provides the GUI toolkit, native system tray support, and the
+# QClipboard API used for reliable, Unicode-safe clipboard access.
+PySide6>=6.6,<7
+
+# 'keyboard' provides system-wide (global) hotkey registration on Windows
+# that works regardless of which application currently has focus, plus
+# the ability to simulate Ctrl+V / typed keystrokes for text insertion.
+keyboard>=0.13.5
